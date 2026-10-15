@@ -1,8 +1,8 @@
-# Website Email Finder
+# Web Sitelerinden E-posta Bulucu
 
 Excel dosyasındaki firma web sitelerini tarayarak e-posta adreslerini otomatik olarak bulur ve sonuçları Excel dosyasına aktarır.
 
-Girdi dosyası: `firmalar.xlsx`
+Girdi dosyası: `firmalar.xlsx`  
 Çıktı dosyası: `firmalar_mailli.xlsx`
 
 ## Kurulum
@@ -17,4 +17,11 @@ OCR özelliği için Mac'te ayrıca Tesseract kurulmalıdır:
 
 ```bash
 brew install tesseract
+```
+
+## Çalıştırma (macOS)
+
+```bash
+cd ~/Desktop/firmalar
+python3 mailbul.py
 ```
